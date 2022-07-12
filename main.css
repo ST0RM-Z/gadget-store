@@ -133,6 +133,7 @@ h2{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  /* -----------------------------MEDIA QUERIES------------------------- */
   @media only screen and (min-width: 400px) {
     .logo{
         display: none;
@@ -214,3 +215,44 @@ h2{
   border: transparent;
 }
 
+/* -------------------------LOGIN---------------------------------- */
+.container{
+    padding: 3rem;
+      font-family:'Courier New', Courier, monospace;
+} 
+h2.login{
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+.wrapper-field{
+    padding-bottom: 3rem;
+    /* padding-left: rem; */
+}
+.username,.password{
+ width: 15rem;
+ height: 1.5rem;
+ border: 1px solid rgba(0, 0, 0, 0);
+ border-radius: 2rem;
+}
+
+.btn-submit{
+    margin-left: 2rem;
+    width: 5.5rem;
+    height: 1.9rem;
+    background-color: blue;
+    color: #ffffff;
+    border: 0px solid rgba(255, 228, 196, 0);
+    border-radius: 1rem;
+}
+.btn-register{
+    margin-left: 2rem;
+    width: 5.5rem;
+    height: 1.9rem;
+    background-color: blue;
+    color: #ffffff;
+    border: 0px solid rgba(255, 228, 196, 0);
+    border-radius: 1rem;
+}
+/* --------------------------------CATERING---------------------------------- */
+
+/* --------------------------------{GRID}---------------------------------- */
